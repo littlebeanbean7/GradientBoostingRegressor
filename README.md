@@ -1,13 +1,15 @@
 # GradientBoostingRegressor
 
-1. In your working directory:
+### 1. In your working directory:
+
 1.1 Put the data/ folder into this directory
 1.2 Create a directory saved_model/
 1.3 Create a directory code/, and put the 2 scripts into the directory: Regressor.py and Predictor.py
 1.4 To generate the model, run $python3 Regressor.py
 1.5 To predict, run $python3 Predictor.py
 
-2. About Regressor.py 
+### 2. About Regressor.py 
+
 This script produces the following 8 files to the saved_model/ directory:
 
 1) model.sav: The GradientBoostingRegressor fitted by X_train.
@@ -20,7 +22,8 @@ This script produces the following 8 files to the saved_model/ directory:
 Please note that during training, I removed rows with missing values, zero values and infinite values, and just used 10% of the remaining data due to limited computational resource.
 I used one hot key encoding for the patient id variable, and removed the first dummy variable to avoid dummy variable trap. 
 
-3. About Predictor.py
+### 3. About Predictor.py
+
 This script generates prediction based on user’s choice of test data sample. it takes one input a time.
 
 First, it defines a class called Predictor(). It makes predictions based on two parameters: patient_id (int) and record (data frame).

@@ -1,12 +1,13 @@
 # GradientBoostingRegressor
 
-### 1. In your working directory:
+### 1. About the Project
 
-1) Put the data/ folder into this directory
-2) Create a directory saved_model/
-3) Create a directory code/, and put the 2 scripts into the directory: Regressor.py and Predictor.py
-4) To generate the model, run $python3 Regressor.py
-5) To predict, run $python3 Predictor.py
+The Regressor.py script conducts data preprocessing, then train, fit and save a GradientBoostingRegressor model. 
+
+The Predictor.py script loads the saved model and makes prediction based on user input. 
+
+The project was conducted in August 2019 solo.
+
 
 ### 2. About Regressor.py 
 
@@ -35,3 +36,13 @@ It has 2 methods:
 Second, it has a main() function, with which users can test the Predictor() without needing to manually input a lot of records. 
 
 When running the script, the program would ask the user to input a random number, which would refers to the index of a sample in the X_test.csv. The program would then fetch the records (patient id and features) and generate the prediction.
+
+### 4. How to Use
+
+In your working directory:
+
+1) Put the data/ folder into this directory
+2) Create a directory saved_model/
+3) Create a directory code/, and put the 2 scripts into the directory: Regressor.py and Predictor.py
+4) To generate the model, run $python3 Regressor.py
+5) To predict, run $python3 Predictor.py

@@ -2,15 +2,11 @@
 
 ### 1. In your working directory:
 
-1.1 Put the data/ folder into this directory
-
-1.2 Create a directory saved_model/
-
-1.3 Create a directory code/, and put the 2 scripts into the directory: Regressor.py and Predictor.py
-
-1.4 To generate the model, run $python3 Regressor.py
-
-1.5 To predict, run $python3 Predictor.py
+1) Put the data/ folder into this directory
+2) Create a directory saved_model/
+3) Create a directory code/, and put the 2 scripts into the directory: Regressor.py and Predictor.py
+4) To generate the model, run $python3 Regressor.py
+5) To predict, run $python3 Predictor.py
 
 ### 2. About Regressor.py 
 
